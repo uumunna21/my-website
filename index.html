@@ -3,12 +3,12 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Home - My Website</title>
+  <title>Elite Estates - Home</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <nav>
-    <div class="site-name">My Website</div>
+    <div class="site-name">Elite Estates</div>
     <div class="nav-links">
       <a href="index.html">Home</a>
       <a href="about.html">About</a>
@@ -16,8 +16,22 @@
   </nav>
 
   <main>
-    <h1>Hello, World!</h1>
-    <button id="clickBtn">Click Me</button>
+    <h1>Find Your Dream Home</h1>
+    <p>Browse top properties in your area</p>
+
+    <div class="listings">
+      <div class="property-card">
+        <h2>Modern Family House</h2>
+        <p>3 Bed • 2 Bath • $450,000</p>
+        <button onclick="viewDetails('House 1')">View Details</button>
+      </div>
+
+      <div class="property-card">
+        <h2>Downtown Apartment</h2>
+        <p>2 Bed • 1 Bath • $300,000</p>
+        <button onclick="viewDetails('Apartment')">View Details</button>
+      </div>
+    </div>
   </main>
 
   <script src="script.js"></script>
